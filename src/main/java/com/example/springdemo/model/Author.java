@@ -20,6 +20,11 @@ public class Author {
 	private Set<Book> book = new HashSet<>();
 	
 	
+	
+	public Author() {
+		super();
+	}
+
 	public Author(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
